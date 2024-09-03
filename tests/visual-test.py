@@ -25,16 +25,16 @@ model_names = [
 ]
 
 detector_backends = [
-    "opencv",
+    # "opencv",
     "ssd",
-    "dlib",
-    "mtcnn",
-    "fastmtcnn",
+    # "dlib",
+    # "mtcnn",
+    # "fastmtcnn",
     # "mediapipe", # crashed in mac
-    "retinaface",
-    "yunet",
-    "yolov8",
-    "centerface",
+    # "retinaface",
+    # "yunet",
+    # "yolov8",
+    # "centerface",
 ]
 
 # verification

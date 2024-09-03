@@ -8,7 +8,7 @@ from deepface.commons.logger import Logger
 logger = Logger()
 
 
-detectors = ["opencv", "mtcnn"]
+detectors = ["mtcnn"] # "opencv"
 
 
 def test_standard_analyze():

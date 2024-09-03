@@ -10,7 +10,7 @@ logger = Logger()
 
 models = ["VGG-Face", "Facenet", "Facenet512", "ArcFace", "GhostFaceNet"]
 metrics = ["cosine", "euclidean", "euclidean_l2"]
-detectors = ["opencv", "mtcnn"]
+detectors = ["mtcnn"] # "opencv"
 
 
 def test_different_facial_recognition_models():

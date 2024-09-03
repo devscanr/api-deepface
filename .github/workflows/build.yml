@@ -1,5 +1,6 @@
 name: Build Workflow
 on:
+  workflow_dispatch: # callable manually
   push:
     tags: # Build on tag creation (any)
       - '*'

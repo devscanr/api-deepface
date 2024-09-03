@@ -2,7 +2,7 @@ name: Build Workflow
 on:
   push:
     tags: # Build on tag creation (any)
-      - *
+      - '*'
 jobs:
   test-n-lint:
     uses: ./.github/workflows/test-n-lint.yml

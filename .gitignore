@@ -1,16 +1,21 @@
-**/__pycache__
-**/.DS_Store
+# Common
+.DS_Store
+.idea/
+.env.local
+
+# Stack
+.venv/
+__pycache__/
+*.pyc
 build/
 dist/
 Pipfile
 Pipfile.lock
 .mypy_cache/
-.idea/
 deepface.egg-info/
 tests/dataset/*.pkl
 tests/*.ipynb
 tests/*.csv
-*.pyc
 **/.coverage
 **/.coverage.*
 benchmarks/results
